@@ -1,0 +1,1 @@
+Get-ScheduledTask -TaskName ServerCeipAssistant|Disable-ScheduledTask

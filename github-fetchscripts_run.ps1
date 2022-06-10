@@ -1,0 +1,1 @@
+Get-ChildItem "$PSScriptRoot\github-fetchscripts" | where { $_.Extension -eq ".ps1" -and $_.Name -notlike "__*" } | foreach { . $_.FullName }
